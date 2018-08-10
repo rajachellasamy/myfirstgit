@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        error 'hellow world'
+        print 'hellow world'
       }
     }
   }
